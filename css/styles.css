@@ -1,0 +1,55 @@
+body {
+    padding-top: 70px;
+}
+
+.navbar {
+    background-color: #FFFFFF !important;
+    border-bottom: 1px solid #EAEAEA;
+    transition: all 0.3s ease-in-out;
+}   
+
+.navbar-brand {
+    padding: 0;
+    margin-right: 1rem;
+}
+
+.logo-img {
+    height: 90px;
+    width: auto;
+}
+
+.nav-link {
+    color: #333 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 15px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #07B0F2 !important;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #07B0F2;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after, .nav-link.active::after {
+    width: 100%;
+}
+
+.navbar-toggler {
+    border-color: #07B0F2;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(7, 176, 242, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
