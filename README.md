@@ -1,10 +1,10 @@
-# Libraria: Digital Library Management 📚
+# LibriDigital: Digital Library Management 📚
 
 ![LibriDigital System Logo](./img/Sistema-LibriDigital-Logo-4.png)
 
 ## 📖 Overview
 
-**Libraria** is an information system proposed to modernize the library of the Escola Superior AprendeMais. The project aims to replace manual processes with an integrated digital solution, improving operational efficiency and the experience for users such as students, teachers, and researchers.
+**LibriDigital** is an information system proposed to modernize the library of the Escola Superior AprendeMais. The project aims to replace manual processes with an integrated digital solution, improving operational efficiency and the experience for users such as students, teachers, and researchers.
 
 This web page was developed as part of the evaluation for the Introduction to Informatics course.
 
@@ -19,7 +19,7 @@ The library faced several challenges that limited its potential:
 
 ## ✨ The Proposed Solution
 
-To overcome these challenges, **Libraria** implements an architecture based on robust, low-cost, open-source technologies.
+To overcome these challenges, **LibriDigital** implements an architecture based on robust, low-cost, open-source technologies.
 
 The core of the system is **Koha**, a world-renowned Integrated Library System (ILS), running on an **Ubuntu** server with a **PostgreSQL** database.
 
@@ -72,7 +72,7 @@ To minimize the disadvantages, the following actions were proposed:
 
 ## 🏁 Conclusion
 
-**Libraria** is a technically and economically advantageous solution that meets all functional requirements for the library's modernization. Its open and low-cost initial architecture ensures a high return on investment and prepares the institution for the digital future.
+**LibriDigital** is a technically and economically advantageous solution that meets all functional requirements for the library's modernization. Its open and low-cost initial architecture ensures a high return on investment and prepares the institution for the digital future.
 
 ## 👨‍💻 Authors
 
