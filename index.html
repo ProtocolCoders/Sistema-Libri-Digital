@@ -11,7 +11,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./img/Sistema-LibriDigital-Logo-3.png" alt="Logotipo do Sistema LibriDigital" class="logo-img"></a>
+                <a class="navbar-brand" href="#"><img src="./img/Sistema-LibriDigital-Logo-4.png" alt="Logotipo do Sistema LibriDigital" class="logo-img"></a>
                 <!-- Botão para aceder ao menu para dispositivos móveis-->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -19,7 +19,7 @@
                 <!-- -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#inicio">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="#inicio">Início</a></li>
                         <li class="nav-item"><a class="nav-link" href="#problema">Problema</a></li>
                         <li class="nav-item"><a class="nav-link" href="#solucao">Solução</a></li>
                         <li class="nav-item"><a class="nav-link" href="#comparativa">Comparativo</a></li>
@@ -119,35 +119,98 @@
                     <td>Dependência de fornecedor</td>
                 </tr>
         </table></section>
-        <section id="custos"><h2>Estimativas de Custos</h2>
-            <table class="table table-striped-columns">
-                <tr>
-                    <td>Item</td>
-                    <td>Preço</td>
-                </tr>
-                <tr>
-                    <td>Scanner (Epson V39II)</td>
-                    <td>119,00 €</td>
-                </tr>
-                <tr>
-                    <td>Leitor RFID</td>
-                    <td>39,76 €</td>
-                </tr>
-                <tr>
-                    <td>Servidor Fujitsu</td>
-                    <td>1.229,00 €</td>
-                </tr>
-                <tr>
-                    <td>PC Cliente HP</td>
-                    <td>371,06 €</td>
-                </tr>
-                <tr>
-                    <th>Total</th>
-                    <th>1.758,82 €</th>
-                </tr>
-            </table></section>
-        <section id="vantagens"><h2>Vantagens e Desvantagens</h2></section>
-        <section id="conclusao"><h2>Conclusão</h2></section>
+        <section id="custos" class="py-5" style="background-color: #EAEAEA;">
+            <div class="container-fluid">
+                <div class="text-center mb-5">
+                    <h2 style="color: #07B0F2; font-weight: bold;">Investimento para o Futuro Digital</h2>
+                    <p class="lead">Transparência é a nossa prioridade. Conheça em detalhe o investimento necessário para dar vida ao LibriDigital.</p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Card de Custos de Infraestrutura -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-header text-white text-center" style="background-color: #07B0F2;">
+                                <h5 class="mb-0">Hardware e Infraestrutura</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Custos associados a infraestrutura necessária para implementar a solução</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">PC Servidor<span class="badge bg-primary rounded-pill">1,229 €</span></li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">Digitalização/Indexação<span class="badge bg-primary rounded-pill">119 €</span></li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">Automação de Presença (RFID)<span class="badge bg-primary rounded-pill">39,76 €</span></li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">PC Cliente<span class="badge bg-primary rounded-pill">371,06 €</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card de Custos de Software -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-header text-white text-center" style="background-color: #07B0F2;">
+                                <h5 class="mb-0">Software</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Custos associados ao software desenvolvido para a solução</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">Software (Koha)<span class="badge bg-primary rounded-pill">0 €</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card de Custo Total -->
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card h-100 shadow-sm border-primary border-2">
+                            <div class="card-body text-center d-flex flex-column justify-content-center">
+                                <h5 class="card-title" style="color: #07B0F2;">Investimento Total Estimado</h5>
+                                <p class="display-5 fw-bold" style="color: #07B0F2;">1758,82 €</p>
+                                <p class="text-muted">Valor referente ao custo de implementação da solução</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Detalhes dos Componentes -->
+                <div class="mt-5">
+                    <h3 class="text-center mb-4" style="color: #07B0F2; font-weight: bold;">Detalhes dos Componentes</h3>
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="p-4 rounded h-100 text-center" style="background-color: #F8F9FA;">
+                                <h5 style="color: #07B0F2;">PC Servidor</h5>
+                                <p>Fujitsu Primergy TX1310 M5</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="p-4 rounded h-100 text-center" style="background-color: #F8F9FA;">
+                                <h5 style="color: #07B0F2;">Digitalização/Indexação</h5>
+                                <p>Tesseract OCR (gratuito) + Plugin Python (gratuito) + Scanner Epson Perfection V39II</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="p-4 rounded h-100 text-center" style="background-color: #F8F9FA;">
+                                <h5 style="color: #07B0F2;">Automação de Presença (RFID)</h5>
+                                <p>Cartões RFID + Leitor RFID</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="p-4 rounded h-100 text-center" style="background-color: #F8F9FA;">
+                                <h5 style="color: #07B0F2;">PC Cliente</h5>
+                                <p>HP OmniDesk Slim S03-0002ns</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="vantagens">
+            <h2>Vantagens e Desvantagens</h2>
+        </section>
+        <section id="conclusao">
+            <h2>Conclusão</h2>
+        </section>
     </main>
 
     <footer class="bg-light py-3 mt-5">
